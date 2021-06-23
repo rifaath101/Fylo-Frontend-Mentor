@@ -1,5 +1,6 @@
 html,body
 {
+    background-color: hsl(216, 53%, 9%);
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -161,22 +162,29 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-    padding-top: 10%;
+    padding: 60px;
     background: hsl(218, 28%, 13%);
-    padding: 100px;
+    position: relative;
 }
+
 
 .cardStyle {
     background: hsl(219, 30%, 18%);
-    align-items: center;
-    border-style: solid;
+    padding: 2%;
+    margin: 0 1% 4% 0;
+    border: 1px solid;
+    box-shadow: 5px 10px hsl(218, 28%, 11%);
 }
-
 
 .profilePic {
     border-radius: 50%;
     width: 15%;
     float: left;
+}
+
+.flex {
+    display: flex;
+    margin: 10px;
 }
 
 span {
@@ -203,6 +211,9 @@ span {
     background-image: linear-gradient(hsl(218, 28%, 13%), hsl(216, 53%, 9%));
 }
 
+.ctaStyle {
+    padding: 30px;
+}
 
 .cardStyleCta {
     background: hsl(219, 30%, 18%);
@@ -292,10 +303,6 @@ footer {
     margin-right: 3%;
 }
 
-.email {
-    display: flex;
-}
-
 .footerLinks {
     display: flex;
     margin-right: 15%;
@@ -328,6 +335,9 @@ footer {
 /* Mobile Design */
 
 @media (max-width: 1028px) {
+
+    /* Title Section */
+
     #title {
         text-align: center;
     }
@@ -338,9 +348,8 @@ footer {
         background: hsl(217, 28%, 15%);
     }
     .bigHeading {
-        background: url(./images/bg-curvy-mobile.svg);
-        background-size: cover;
-        margin-bottom: 0;
+        background-image: linear-gradient(hsl(217, 28%, 15%), hsl(218, 28%, 13%));
+        margin-bottom: 0%;
     }
     .subheading {
         background: hsl(218, 28%, 13%);
@@ -350,6 +359,10 @@ footer {
     .btnDiv {
         background: hsl(218, 28%, 13%);
     }
+
+    /* Stay Productive Section */
+
+
     #stayProductive {
         align-items: center;
     }
@@ -358,7 +371,7 @@ footer {
         margin: 10% 8% 0%;
     }
     .stayImg {
-        padding-left: 11%;
+        padding-left: 20%;
     }
     .stayText {
         margin-left: 9%;
@@ -366,8 +379,67 @@ footer {
     .stayLink {
         padding: 0 0 18% 9%;
     }
-    #testimonials {
+
+    /* Testimonial Section */
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .profilePic {
+        width: 5%;
+    }
+
+    /* Cta Section */
+
+    .getStarted {
         display: flex;
         flex-direction: column;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+    }
+    .getStartedBtn {
+        width: 60%;
+        margin-top: 3%;
+    }
+
+    .input {
+        width: 59%;
+    }
+
+    /* Footer Style Section */
+
+    .footerStyle {
+        flex-direction: column;
+        width: 930px;
+        height: 530px;
+        align-items: left;
+    }
+
+    .second {
+        padding: 0;
+        margin-left: 20%;
+        margin-top: 2%;
+        text-align: left;
+    }
+
+    .footerLinks {
+        flex-direction: column;
+    }
+
+    .footerLinks1 {
+        width: 100px;
+        margin-left: 21%;
+    }
+
+    .footerLinks2 {
+        width: 100px;
+        margin-left: 21%;
+    }
+
+    .footerLinks3 {
+        margin-left: 50%;
+        margin-top: 5%;
     }
 }
