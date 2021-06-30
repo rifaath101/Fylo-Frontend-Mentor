@@ -426,8 +426,9 @@ footer {
     }
 
     .getStartedBtn {
-        margin-right: 4%;
-        width: auto;
+        margin-right: 54%;
+        margin-left: 25%;
+        width: 90%;
     }
 
     .getStartedBtn2 {
