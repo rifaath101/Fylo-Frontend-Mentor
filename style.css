@@ -69,13 +69,6 @@ p {
     padding: 0 28% 0;
 }
 
-.firstBtn {
-    margin:1% 40% 2%;
-    width: 20%;
-    border-radius: 25px;
-    font-size: 1.2em;
-    font-weight: 700;
-}
 
 .col_two {
     padding-left: 0;
@@ -239,8 +232,22 @@ span {
 }
 
 .input {
-    width: 50%;
+    margin-top: 2.5%;
+    margin-left: 15%;
+    height: 17%;
+    font-size: 17px;
+    width: 40%;
     border-radius: 25px;
+}
+
+.getStartedBtn2 {
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 17px;
+    width: 30%;
+    height: 17%;
+    margin-top: 2%;
+
 }
 
 .getStarted {
@@ -251,8 +258,10 @@ span {
 .getStartedBtn {
     border-radius: 25px;
     font-weight: 700;
-    font-size: 1em;
+    font-size: 20px;
     width: 26%;
+    margin-left: 37%;
+    margin-top: 2%;
 }
 
 /* Footer Section */
@@ -344,20 +353,15 @@ footer {
     .titleImage {
         position: static;
     }
-    .main {
-        background: hsl(217, 28%, 15%);
-    }
     .bigHeading {
-        background-image: linear-gradient(hsl(217, 28%, 15%), hsl(218, 28%, 13%));
         margin-bottom: 0%;
     }
     .subheading {
-        background: hsl(218, 28%, 13%);
         margin-bottom: 0;
         padding-bottom: 2%;
     }
-    .btnDiv {
-        background: hsl(218, 28%, 13%);
+    .main {
+        background-image: linear-gradient(hsl(217, 28%, 15%),hsl(218, 28%, 13%));
     }
 
     /* Stay Productive Section */
@@ -370,11 +374,12 @@ footer {
         padding: 0;
         margin: 10% 8% 0%;
     }
-    .stayImg {
-        padding-left: 20%;
-    }
     .stayText {
         margin-left: 9%;
+    }
+    .stayImgClass {
+        width: 65%;
+        margin-left: 17%;
     }
     .stayLink {
         padding: 0 0 18% 9%;
@@ -387,10 +392,18 @@ footer {
     }
 
     .profilePic {
-        width: 5%;
+        width: 10%;
     }
 
     /* Cta Section */
+
+    #cta {
+        padding-bottom: 15%;
+    }
+
+    .ctaStyle {
+        margin-bottom: 15%;
+    }
 
     .getStarted {
         display: flex;
@@ -399,13 +412,29 @@ footer {
         text-align: center;
         align-items: center;
     }
+
+    .input {
+        margin-right: 14%;
+        margin-bottom: 7%;
+    }
+
+    /* Buttons */
+
+    .btnDiv {
+        background: hsl(218, 28%, 13%);
+        padding-right: 26%;
+    }
+
     .getStartedBtn {
-        width: 60%;
-        margin-top: 3%;
+        width: auto;
+    }
+
+    .getStartedBtn2 {
+        width: auto;
     }
 
     .input {
-        width: 59%;
+        width: auto;
     }
 
     /* Footer Style Section */
@@ -439,7 +468,9 @@ footer {
     }
 
     .footerLinks3 {
-        margin-left: 50%;
         margin-top: 5%;
+        margin-right: 40%;
+        margin-left: 38%;
     }
 }
+
