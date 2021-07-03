@@ -35,8 +35,6 @@ p {
 
 /* Title section */
 
-/* Image */
-
 .titleImage {
     position: relative;
     left: 25%;
@@ -46,8 +44,6 @@ p {
 .curvyImg {
     margin-top: 9%;
 }
-
-/* Headings */
 
 .bigHeading {
     line-height: 1.5;
@@ -69,12 +65,14 @@ p {
     padding: 0 28% 0;
 }
 
-
-.col_two {
-    padding-left: 0;
-    padding-right: 0;
+.getStartedBtn {
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
 }
-
 
 .main {
     background-image: url(./images/bg-curvy-desktop.svg);
@@ -243,7 +241,7 @@ span {
 .getStartedBtn2 {
     border-radius: 25px;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 20px;
     width: 30%;
     height: 17%;
     margin-top: 2%;
@@ -255,14 +253,6 @@ span {
     justify-content: space-evenly;
 }
 
-.getStartedBtn {
-    border-radius: 25px;
-    font-weight: 700;
-    font-size: 20px;
-    width: 26%;
-    margin-left: 37%;
-    margin-top: 2%;
-}
 
 /* Footer Section */
 
@@ -363,6 +353,13 @@ footer {
     .main {
         background-image: linear-gradient(hsl(217, 28%, 15%),hsl(218, 28%, 13%));
     }
+    .getStartedBtn {
+        width: 10%;
+        border-right-width: 1px;
+        border-left-width: 1px;
+        margin-right: 175%;
+        margin-left: 55%;
+    }
 
     /* Stay Productive Section */
 
@@ -427,7 +424,7 @@ footer {
 
     .getStartedBtn {
         margin-right: 54%;
-        margin-left: 23%;
+        margin-left: 25%;
         width: 90%;
     }
 
@@ -475,4 +472,3 @@ footer {
         margin-left: 38%;
     }
 }
-
