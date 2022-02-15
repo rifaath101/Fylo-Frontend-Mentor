@@ -1,15 +1,14 @@
 # Fylo-Frontend-Mentor
 
-https://user-images.githubusercontent.com/72337379/150765530-4d93f884-afec-4cec-bf89-cdff9beaab75.mp4
-
-https://rifaath101.github.io/Fylo-Frontend-Mentor/
-
-Purpose : 
+## Purpose : 
 
 To understand how to design websites with Bootstrap and CSS
 
-Concepts learned :
+## Concepts learned :
 
 1. Using Bootstrap
 2. Media queries and Css
 
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/72337379/154090850-44089e2b-6e18-44bb-948e-f0bc41d0a448.png)
